@@ -27,6 +27,18 @@ The README starts with the common path and gets more detailed as it goes:
 
 You do not need to understand the later sections before running `composer test`. They are here so the answer is available when a test needs something unusual.
 
+## Run it after setup
+
+Start Docker, then run these commands from the WordPress directory whenever you return to the project:
+
+```bash
+ddev start
+composer doctor
+composer test
+```
+
+The DDEV project must already be running before `composer doctor` or any test command is used. `composer doctor` checks that the local environment is ready without changing it; omit it when you only want to run the tests.
+
 ## Quick setup
 
 Install Docker, DDEV, Git, Composer, Node.js, and npm. Clone Anyape WP Test Tools into the WordPress directory:
