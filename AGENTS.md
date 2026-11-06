@@ -314,8 +314,6 @@ When writing plans:
 - always include acceptance criteria and exit conditions
 - plan with decisions, not options: be actionable without room for undesired improvisation
 - focus your writing on what is to be done, not for what is not to be done, unless to guard against unwanted side effects
-- DO NOT change to the domain related data described in `data-model.md` unless asked to do so specifically by the user
-- DO NOT change the content of `data-model.md` unless asked to do so specifically by the user
 - DO NOT rewrite the complete plan file unless explicitly asked to
 
 When following plans:
